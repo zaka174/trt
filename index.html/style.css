@@ -1,0 +1,156 @@
+#navbar{
+    background-color: rgb(0, 0, 0);
+    height: 185px;
+    position: relative; 
+} 
+
+.top{
+    padding-left: 740px;
+    padding-top: 15px;
+}
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: #1E293B;
+    text-align: left;
+}
+
+a{
+    margin-right: 100px;
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+}
+
+.back{
+    width: 1905px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;       
+    margin-top: 20px;
+    padding-left: 370px;
+    font-weight: 650;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 13px 20px;
+    transition: 0.3s;
+    font-family: Roboto, sans-serif;
+    margin: 3px;
+}
+
+#navbar ul li a:hover {
+    background-color: #464a9b; 
+    color: #ffffff;
+    border-radius: 7px;
+}
+
+.nav-buttons {
+    position: absolute;
+    top: 138px;         
+    right: 265px;       
+    font-family: Roboto, sans-serif;
+    font-weight: 550; 
+}
+
+.register {
+    padding: 12px 18px;
+    background: #54595f;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login {
+    padding: 12px 18px;
+    background: #2D328B;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.content {
+    width: 1000px;
+    margin: auto;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.content div {
+    margin-bottom: 50px;
+}
+
+.content h1 {
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Roboto, sans-serif;
+    width: 1150px;
+}
+
+.foool{
+   width: 1905px;
+   padding-top: 50px;
+}
+
+.para1 {
+    font-size: 37px;
+}
+
+
+@media (max-width: 768px) {
+
+    .top {
+        padding-left: 0;
+        display: block;
+        margin: auto;
+    }
+
+    #navbar ul {
+        padding-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    a {
+        margin-right: 10px;
+    }
+
+    .nav-buttons {
+        position: static;    
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    #navbar {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .back,
+    .foool {
+        width: 100%;
+    }
+
+    .content {
+        width: 90%;
+        padding-right: 0;
+    }
+
+    .content p {
+        width: 100%;
+    }
+}
+
